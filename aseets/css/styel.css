@@ -1,0 +1,607 @@
+
+
+*{
+    margin: 0;
+    padding: o;
+    
+}
+.header{
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    position: fixed;
+}
+.header h1{
+    font-size: 25px;
+    color: aquamarine;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+.nav{
+    position: absolute;
+    top: 0;
+    right: 0; 
+    margin-right: 50px;
+    
+    
+}
+.nav ul{
+    list-style: none;
+}
+.nav ul li {
+float: left;
+padding-left: 30px;
+padding-top: 10px;
+}
+.nav ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: darkblue;
+
+}
+
+.nav ul li a:hover{
+    color: darkturquoise;
+}
+
+.checkbtn{
+    display: none;
+    font-size: 32px;
+    line-height: 80px;
+    float: right;
+}
+#check{
+    display: none;
+}
+
+/* header end */
+.contner{
+    background-color: rgb(245, 245, 223);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;;
+    margin-bottom: 100px;
+
+}
+.text .img{
+    
+}
+.text{
+    margin-left: 35px;
+    margin-bottom: 199px;
+    margin-top: 200px;
+    
+}
+.img{
+    margin-top: 290px;
+
+    
+    
+}
+.img img{
+    width: 240px;
+    height: 270px;
+    object-fit: cover;
+    padding-right: 80px;
+    margin-bottom: 270px;
+    border-radius: 20px;
+   
+}
+
+.text h6{
+    font-size: 12px;
+    color: firebrick;
+}
+
+.text h1{
+    font-size: 30px;
+    color: darkmagenta;
+    font-family:;
+}
+
+.text p{
+    font-size:17px;
+    color:rgba(0,0,0,0.8);
+    padding: 0 1px 10px;
+    
+    
+}
+
+
+.tap {
+    display: flex;
+    
+}
+.tap h3{
+    font-size: 35px;
+
+}
+.tap span{
+    font-size: 12px;
+    color: rgba(0,0,0,0.6);
+    padding: 10px;
+}
+.tap h4{
+    font-size: 35px;
+}
+.tap p{
+    font-size: 12px;
+    color: rgba(0,0,0,0.6);
+    padding: 10px;;
+}
+
+/* potfolio */
+.potfolio{
+    width: 90%;
+    height: auto;
+    margin-top: 80px;
+    margin-left: 55px;
+}
+.potfolio h1{
+    font-size: 16px;
+    color: brown;
+    margin-bottom: 10px;
+}
+.potfolio h2{
+    font-size: 25px;
+    font-family: ;
+}
+
+
+.imgg{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+.imgg img {
+    width: 270px;
+    height: 270px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.imgg h2 {
+    font-size: 16px;
+    color: cornflowerblue;
+}
+
+.imgg p{
+    font-size: 11px;
+    color: rgba(111, 89, 89, 0.6);
+}
+
+.skill{
+    width: 100%;
+    height: 370px;
+    background-color: rgba(0,0,0,0.9);
+    margin-top: 50px;
+}
+.skill1{
+    
+    padding-top: 30px;
+    margin-left: 30px;
+    
+}
+.skill1 h3{
+    font-size: 13px;
+    color: darkorange;
+    margin-bottom: 14px;
+}
+.skill1 p{
+    width: 500px;
+    color: rgb(240, 211, 211);
+    margin-top: 10px;
+}
+
+.skill1 h2{
+    font-size: 22px;
+    color: white;
+}
+.skill1 h4{
+    color: white;
+    
+    
+}
+.skill1 ul{
+    list-style: none;
+    position: relative;
+    right: 40px;
+    top: 30px;
+    
+}
+.skill1 ul li{
+text-decoration: none;
+padding: 10px;
+}
+.skill1 .bar{
+    width: 440px;
+    background-color:red ;
+    display: block;
+    height: 10px;
+    border: 1px solid rgb(207, 118, 118);
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 2px 3px rgb(97, 126, 212);
+    
+}
+
+
+
+
+
+
+
+
+
+/* servicesstart */
+.services{
+    
+    width: 90%;
+    height: auto;
+    margin-top: 60px;
+
+    margin-left: 27px;
+}
+.services h2{
+    font-size: 13px;
+    color: red;
+    margin-bottom: 10px;
+}
+.services h1{
+    font-size: 26px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+.services p{
+    width: 500px;
+    font-size: 13px;
+    color: rgba(0,0,0,0.6);
+    margin-top: 17px;
+}
+.price{
+    width: 350px;
+    height: auto;
+    position: relative;
+    top: -125px;
+    left: 60%;
+    right: 0;
+    
+    
+}
+.price div{
+
+    padding: 26px 0px;
+    
+}
+.price i {
+    font-size: 19px;
+    color: salmon;
+    margin-right: 10px;
+}
+.price span{
+    font-size: 17px;
+    
+}
+.price span1{
+    font-size: 18px;
+
+    margin-left: 110px;
+}
+
+.price div:hover{
+    color: white;
+    background-color: orangered;
+}
+
+/* /* news start */
+.news{
+    width: 100%;
+    height: auto;
+    
+    
+
+}
+.news h2{
+    font-size: 15px;
+    margin-left: 50px;
+    color: deeppink;
+}
+.news p{
+    font-size: 13px;
+    color: rgba(0,0,0,0.4);
+    margin-left: 50px;
+}
+.news h3{
+    font-size: 25px;
+    margin-left: 50px;
+}
+.news-img{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.news-img img{
+    width: 410px;
+    height: 300px;
+    object-fit: cover;
+    padding: 5px 0;
+    border-radius: 20px;
+    
+}
+/* contact */
+.contact{
+    width: 50%;
+    height: auto;
+    margin-top: 80px;
+    margin-left: 28px;
+}
+.contact h4{
+    font-size: 14px;
+    color: red;
+    margin-bottom: 10px;
+}
+.contact h2{
+    font-size: 25px;
+    
+
+}
+.contact span{
+    width: 400px;
+    font-size: 11px;
+    margin-bottom: 10px;
+    color: rgba(0,0,0,0.6);
+    font-family: ;
+    
+}
+.contact p{
+    font-size: 12px;
+    padding: 20px 0;
+    color: rgba(48, 42, 42, 0.7);
+    
+   
+}
+.contact i{
+    font-size: 13px;
+    color: red;
+
+}
+.contact-me{
+    width: 100px;
+    height: auto;
+    position: relative;
+    top: -180px;
+    left: 68%;
+    
+    
+    
+}
+.contact-me input{
+    font-size: 12px;
+    margin-bottom: 40px;
+    padding: 10px 65px ;
+    border: 1px solid rgb(203, 202, 202);
+    outline: none;
+}
+.contact-me button{
+    font-size: 12px ;
+    padding: 3px 120px;
+    margin-bottom: 20px;
+    color: white;
+    background-color:orangered;
+}
+.contact-me button:hover{
+    color: rebeccapurple;
+    background-color: skyblue;
+}
+/* fotterstart */
+.fotter{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(25, 19, 19);
+    color: white;
+    
+    
+    
+}
+.fott {
+    float: right;
+    margin-right: 40px;
+    margin-top: -50px;
+}
+.fotter h3{
+    font-size: 16px;
+    padding: 40px 0;
+    font-weight: 300;
+    margin-left: 30px;
+    
+}
+.fott i{
+    font-size: 15px;
+    margin: 0 10px;
+}
+
+.fott i:hover{
+    background-color: bisque;
+    color: red;
+}
+/* responsive */
+@media(max-width:767px){
+    .header{
+        width: 100%;
+        height: auto;
+        margin-top: -180px;
+        
+    }
+    .header h1{
+        margin-right: 10px;
+        padding: 5px;
+        font-size: 20px;
+        color: red;
+      
+    }
+    .checkbtn{
+        display: block;
+        margin-block-end: 10px;
+    
+    }
+    .nav ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(84, 80, 80); 
+        top: 55px;
+        left: 100%;
+        transition: all .5s;
+    }
+    .nav ul li{
+        line-height: 20px;
+        clear: both;
+        margin-top: 20px;
+        
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    .nav ul li a {
+        font-size: 17px;
+        color: white;
+        
+    }
+    
+    .contner{
+        width:60%;
+        height: auto;
+        display: block;
+        background-color: white;
+       margin-top: -30px;
+       
+    
+        
+    }
+    .text h1 {
+        font-size: 20px;
+        width: 400px;
+    }
+    
+    .img img{
+        width:300px ;
+        height: 300px;
+
+        margin-top: -200px;
+        margin-left: 40px;
+    }
+
+    
+    .potfolio{
+        width: 79%;
+        height: auto;
+        margin-top: -200px;
+        margin-left: 70px;
+    }
+    .imgg{
+        width:80%;
+        margin-left: 70px;
+    }
+    .imgg img{
+        width: 400px;
+    
+
+    }
+    
+    .skill{
+        width: 161%;
+        height: auto;
+    
+    }
+    .skill1 .bar{
+        width: 320px;
+    }
+    .skill1{
+        
+       
+    }
+    .skill1 ul {
+        width:100% ;
+        height: 300px;
+    }
+
+    .services{
+        width: 50%;
+        height: auto;
+    }
+    .services h1{
+        font-size: 20px;
+        width: 400px;
+    }
+    .services p{
+        font-size: 11px;
+    }
+    .price{
+        margin-top: 170px;
+        margin-left: -170px;
+    }
+    .price span{
+        font-size: 18px;
+        color: brown;
+    }
+    .price span1{
+        font-size: 20px;
+    }
+    .news{
+        width: 100%;
+        height: auto;
+        margin-left: 15px;
+        
+    }
+    .news h2{
+        font-size: 18px;
+        padding: 10px 0;
+    }
+    .news p{
+        font-size: 12px;
+        padding: 8px 0;
+
+    }
+    .news-img{
+        width: 100%;
+        height: auto;
+        margin-left: 60px;
+    }
+
+    .contact{
+        width: 100%;
+        height: auto;
+    }
+    .contact h2{
+        font-size: 25px;
+    }
+    .contact h4{
+        font-size: 11px;
+    }
+    .contact p{
+        font-size: 15px;
+    }
+    .contact-me{
+        margin-top: 220px;
+        margin-left: -200px;
+    }
+    .fotter{
+        width: 160%;
+        height: auto;
+    }
+  
+
+}
+
+
